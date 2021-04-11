@@ -1,0 +1,51 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/logo.png" type="image/png">
+    <link rel="stylesheet" href="style.css" />
+    <title>Photo Gallery</title>
+</head>
+
+<body>
+    <header>
+        <div class="hero">
+
+            <nav>
+                <span class="logo">
+                    <img src="./images/logo.png">
+                    <p>Photo</p>
+                </span>
+                <ul>
+                    <li><a href="#">Khám phá</a></li>
+                    <li><a href="#">Thông báo</a></li>
+                    <li><a href="#">Cá nhân</a></li>
+                </ul>
+            </nav>
+            <div class="hero-background">
+                <img src="./images/pexels-photo-305834.jpeg">
+                <div class="box">
+                    <h2>Kho hình tuyệt nhất của những người sáng tạo đầy tài năng chia sẻ</h2>
+                    <form id="search-form">
+                        <input type="search" id="search" placeholder="Tìm kiếm ảnh miễn phí">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class = "container-title"><p>Kho ảnh miễn phí</p></div>
+        <div class="grid"></div>
+        <div class="loadmore" id="loadmore"><button>Load more</button> </div>
+    </div>
+    <!-- <div class="auto-load-onscroll"></div> -->
+    <div class="modal hide">
+        <p></p>
+        <img />
+    </div>
+</body>
+<script src="script.js" defer></script>
+
+</html>
